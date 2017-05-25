@@ -2,7 +2,7 @@
 
 ## Why?
 
-DXF is a messy format and pretty hard to handle. If you design your Graphics e.g. in `Blender`, then you might end up with something as this:
+DXF is a messy format and pretty hard to handle. If you design your Graphics e.g. in `Blender`, then you might end up with something like this:
 
 ![](sample.png)
 
@@ -39,5 +39,7 @@ Run the script and give it a file as an argument.
 ```
 ./stl-to-dxf-convert.sh myfile.stl
 ```
+
+Nix users can just do `stl-to-dxf myfile.stl`.
 
 This will result in a file `myfile.dxf`. Have fun!
