@@ -1,0 +1,4 @@
+*.stl
+*.dxf
+!sample.stl
+!sample.dxf
