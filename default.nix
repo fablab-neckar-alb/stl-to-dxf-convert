@@ -4,9 +4,8 @@ with import <nixpkgs>{};
 stdenv.mkDerivation {
   name = "stl-to-dxf-convert";
   installPhase = ''
-    mkdir $out
-    cp stl-to-dxf-convert.sh $out/
-    cp convert.scad $out/
+    mkdir -p $out/bin
+    cp stl-to-dxf-convert.sh convert.scad $out/bin/
   '';
   buildInputs = [
     pkgs.openscad
