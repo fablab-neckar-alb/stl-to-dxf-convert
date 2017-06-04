@@ -1,3 +1,5 @@
+PLease note, that this wrapper is not functional yet.
+
 # STL-to-DXF-convert
 
 ## Why?
